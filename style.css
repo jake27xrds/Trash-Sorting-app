@@ -1,0 +1,53 @@
+body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+        #webcam-container {
+            margin-bottom: 20px;
+        }
+        #label-container {
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            margin: 5px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        #button2 {
+          visibility:hidden;
+        }
+        .compostable-word {
+          color: green;
+          font-size: 18px;
+          font-weight: bold;
+         }
+           .item-images {
+          display: flex;
+          justify-content: center;
+          margin-top: 20px;
+        }
+        .item-images img {
+          width: 100px;
+          height: 100px;
+          margin: 0 10px;
+        }
+        .bin-images img {
+          width: 100px;
+          height: 100px;
+          margin: 0 20px;
+        }
