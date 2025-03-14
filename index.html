@@ -100,8 +100,8 @@
         }
 
         async function loop() {
-            webcam.update(); // Update the webcam frame
-            window.requestAnimationFrame(loop); // Continue the loop
+            webcam.update();
+            window.requestAnimationFrame(loop);
         }
 
         async function captureImage() {
@@ -121,11 +121,11 @@
            // Determine which bin image to show based on the item type
              let binImageSrc = '';
             if (itemType === 'Recyclable') {
-              binImageSrc = 'Recyclable.jpg';
+              binImageSrc = '/images/Recyclable.jpg';
              } else if (itemType === 'Compostable') {
-             binImageSrc = 'compost.jpg';
+             binImageSrc = '/images/compost.jpg';
              } else if (itemType === 'Trash') {
-            binImageSrc = 'trash.jpg';
+            binImageSrc = '/images/trash.jpg';
              }
 
     const binImg = document.createElement("img");
@@ -166,7 +166,7 @@
 }
            } else {
              document.getElementById("label-container").innerHTML =
-               "Recommendation: Please take a new picture.";
+               "Please take a new picture.";
              clearImages();
            }
          }
@@ -177,11 +177,8 @@
           {document.getElementById("button1").style.visibility="hidden";}
         }
         function clearImages() {
-
         document.getElementById("item-images").innerHTML = '';
-
-
-           document.getElementById("bin-images").style.visibility = "hidden";
+        document.getElementById("bin-images").style.visibility = "hidden";
         }
 
       function showItemImage(className) {
@@ -197,6 +194,9 @@
           itemImg.alt = className;
           itemImagesDiv.appendChild(itemImg);
       }
+
+
+
 
     </script>
 
