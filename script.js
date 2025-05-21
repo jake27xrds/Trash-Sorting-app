@@ -1,6 +1,29 @@
- const trashItems = ["Dirty food container", "Dirty Plate", "Human"];
-      const recyclableItems = ["Bottle Cap", "recyclable plastic"];
-      const compostItems = ["Food Scraps"]
+ const trashItems = [
+        "Coffee cup",
+        "Concrete",
+        "Cup",
+        "Dirty food container",
+        "Dirty Plate",
+        "Plastic Fork",
+        "Plastic Knife",
+        "Plastic Spoon",
+        "Wrapper",
+        "Stick",
+        "Pizza Topper"
+    ];
+      const recyclableItems= [
+        "Bottle Cap",
+        "Cardbard",
+        "Foil",
+        "Foil food container",
+        "Paper Box",
+        "Plastic bottle",
+        "Plastic Container"
+    ];
+      const compostItems = [
+        "Napkin",
+        "Paper food container"
+    ];
 
         const URL = "https://teachablemachine.withgoogle.com/models/PweO859QY/";
 
