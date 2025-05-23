@@ -25,7 +25,7 @@
         "Paper food container"
     ];
 
-        const URL = "https://teachablemachine.withgoogle.com/models/PweO859QY/";
+        const URL = "https://teachablemachine.withgoogle.com/models/PjbEbWNi3/";
 
         let model, webcam, maxPredictions;
 
